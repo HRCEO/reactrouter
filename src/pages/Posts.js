@@ -1,6 +1,8 @@
-import React from 'react';
+import React, {lazy} from 'react';
 import { Link, Route } from 'react-router-dom';
 import { Post } from '../pages';
+
+const NewPopup = lazy(() => import(''));
 
 const Posts = ({match}) => {
     return (
